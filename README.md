@@ -84,11 +84,6 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 | **Supplier** | Nhà cung cấp hàng hóa |
 
 
-## 🧰 Công cụ sử dụng
-
-`Figma` — thiết kế wireframe & mockup &nbsp;•&nbsp; `Mermaid` — sơ đồ Use Case / BPMN / ERD &nbsp;•&nbsp; `Markdown` — trình bày tài liệu
-
-
 ## ✍️ Về tác giả
 
 **Võ Huỳnh Thủy Tiên**
