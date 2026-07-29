@@ -37,13 +37,13 @@ số hóa toàn bộ quy trình vận hành cửa hàng.
 
 |Tài liệu|Nội dung|
 |-|-|
-|[01 – Tổng quan dự án](docs/01-project-overview.md)|Bối cảnh, mục tiêu, phạm vi, stakeholder|
-|[02 – BRD (Business Requirement Document)](docs/02-brd.md)|Yêu cầu nghiệp vụ, tiêu chí thành công|
-|[03 – FRD (Functional Requirement Document)](docs/03-frd.md)|Yêu cầu chức năng \& phi chức năng chi tiết|
-|[04 – Use Case Specifications](docs/04-use-cases.md)|Danh sách actor, use case diagram, đặc tả chi tiết|
-|[05 – Business Process Flow](docs/05-process-flow.md)|Lưu đồ quy trình Bán hàng \& Nhập hàng (Mermaid/BPMN-style)|
-|[06 – ERD (Entity Relationship Diagram)](docs/06-erd.md)|Mô hình dữ liệu sơ bộ|
-|[07 – Wireframes](docs/07-wireframes.md)|Mô tả giao diện các màn hình chính|
+|[01 – Tổng quan dự án](01-project-overview.md)|Bối cảnh, mục tiêu, phạm vi, stakeholder|
+|[02 – BRD (Business Requirement Document)](02-brd.md)|Yêu cầu nghiệp vụ, tiêu chí thành công|
+|[03 – FRD (Functional Requirement Document)](03-frd.md)|Yêu cầu chức năng \& phi chức năng chi tiết|
+|[04 – Use Case Specifications](04-use-cases.md)|Danh sách actor, use case diagram, đặc tả chi tiết|
+|[05 – Business Process Flow](05-process-flow.md)|Lưu đồ quy trình Bán hàng \& Nhập hàng (Mermaid/BPMN-style)|
+|[06 – ERD (Entity Relationship Diagram)](06-erd.md)|Mô hình dữ liệu sơ bộ|
+|[07 – Wireframes](07-wireframes.md)|Mô tả giao diện các màn hình chính|
 
 ## 🧰 Công cụ sử dụng (gợi ý khi mở rộng)
 
