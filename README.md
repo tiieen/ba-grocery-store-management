@@ -10,7 +10,6 @@
 
 </div>
 
----
 
 ## 👋 Giới thiệu
 
@@ -25,7 +24,6 @@ Excel và mong muốn số hóa để quản lý hiệu quả hơn.
 > 🎯 Mục tiêu của dự án: xây dựng một bộ hồ sơ BA hoàn chỉnh, đúng chuẩn nghiệp vụ, dùng làm
 > portfolio khi ứng tuyển vị trí **thực tập sinh Business Analyst**.
 
----
 
 ## 🧩 Bài toán kinh doanh
 
@@ -41,8 +39,6 @@ Chị Thành hiện quản lý cửa hàng hoàn toàn thủ công, dẫn đến
 → Từ đó, dự án đặt mục tiêu xây dựng một hệ thống giúp **số hóa toàn bộ quy trình bán hàng,
 nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo hỗ trợ ra quyết định.
 
----
-
 ## 📚 Tài liệu dự án
 
 | # | Tài liệu | Nội dung chính |
@@ -55,10 +51,6 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 | 06 | [ERD — Entity Relationship Diagram](docs/06-erd.md) | Mô hình dữ liệu sơ bộ |
 | 07 | [Wireframes & Mockup](docs/07-wireframes.md) | Giao diện các màn hình chính (Figma) |
 
-> 💡 Các sơ đồ trong tài liệu được viết bằng **Mermaid** — GitHub tự render trực tiếp thành hình,
-> không cần công cụ ngoài.
-
----
 
 ## 🖼️ Xem trước giao diện
 
@@ -68,7 +60,6 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 <br/><i>Màn hình Bán hàng (POS) và Dashboard báo cáo — xem đầy đủ tại <a href="docs/07-wireframes.md">07-wireframes.md</a></i>
 </div>
 
----
 
 ## 🎯 Phạm vi dự án
 
@@ -85,8 +76,6 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 - Tích hợp cổng thanh toán bên thứ ba
 - Quản lý chuỗi cung ứng nhiều chi nhánh
 
----
-
 ## 👥 Stakeholders
 
 | Vai trò | Mô tả |
@@ -97,13 +86,11 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 | **Customer** | Khách hàng mua sắm, thành viên tích điểm |
 | **Supplier** | Nhà cung cấp hàng hóa |
 
----
 
 ## 🧰 Công cụ sử dụng
 
 `Figma` — thiết kế wireframe & mockup &nbsp;•&nbsp; `Mermaid` — sơ đồ Use Case / BPMN / ERD &nbsp;•&nbsp; `Markdown` — trình bày tài liệu
 
----
 
 ## ✍️ Về tác giả
 
@@ -111,7 +98,6 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 Business Analyst — đang tìm kiếm cơ hội thực tập
 📫 vohuynhthuytien1769@gmail.com
 
----
 
 <div align="center">
 <i>Đây là dự án học tập / portfolio cá nhân, không phải sản phẩm thương mại thực tế.</i>
