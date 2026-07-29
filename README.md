@@ -1,73 +1,118 @@
-# 🛒 GSMS – Grocery Store Management System
+<div align="center">
 
-### Hệ thống Quản lý Bán hàng – Cửa hàng Tạp hóa Chị Thành (Ms. Thanh's Grocery Store)
+# 🛒 GSMS — Grocery Store Management System
+### Bộ tài liệu phân tích nghiệp vụ cho hệ thống quản lý bán hàng
+**Cửa hàng Tạp hóa Chị Thành** *(Ms. Thanh's Grocery Store)*
 
-> Dự án cá nhân — Business Analysis Portfolio
-> Tác giả: Võ Huỳnh Thủy Tiên
+![Status](https://img.shields.io/badge/status-completed-2F6B4F)
+![Role](https://img.shields.io/badge/role-Business%20Analyst-E8A33D)
+![Type](https://img.shields.io/badge/type-Personal%20Project-blue)
 
-> Vai trò: Business Analyst
-> Phiên bản: 1.0 — Tháng 7/2026
+</div>
 
-\---
+---
 
-## 📌 Giới thiệu
+## 👋 Giới thiệu
 
-Đây là bộ tài liệu phân tích nghiệp vụ (Business Analysis) hoàn chỉnh cho một dự án giả lập:
-xây dựng hệ thống quản lý bán hàng cho **Cửa hàng Tạp hóa Chị Thành (Ms. Thanh)** — một cửa hàng
-tạp hóa quy mô nhỏ đang gặp khó khăn trong việc quản lý bán hàng, tồn kho và nhập hàng bằng
-phương pháp thủ công (sổ sách, Excel).
+Đây là bộ tài liệu phân tích nghiệp vụ (Business Analysis) được thực hiện như một **dự án cá nhân**,
+mô phỏng đầy đủ quy trình của một Business Analyst thực thụ — từ tìm hiểu bối cảnh kinh doanh,
+thu thập yêu cầu, đến đặc tả chức năng, use case, quy trình nghiệp vụ và mô hình dữ liệu.
 
-Dự án được thực hiện với mục đích luyện tập và làm portfolio cá nhân khi ứng tuyển vị trí
-**thực tập sinh Business Analyst**, mô phỏng đầy đủ quy trình phân tích nghiệp vụ từ thu thập
-yêu cầu đến đặc tả chức năng, use case, quy trình nghiệp vụ và mô hình dữ liệu.
+Dự án lấy bối cảnh giả định: xây dựng hệ thống quản lý bán hàng (POS + quản lý kho) cho
+**Cửa hàng Tạp hóa Chị Thành** — một cửa hàng quy mô nhỏ đang vận hành thủ công bằng sổ sách,
+Excel và mong muốn số hóa để quản lý hiệu quả hơn.
 
-## 🎯 Bối cảnh dự án
+> 🎯 Mục tiêu của dự án: xây dựng một bộ hồ sơ BA hoàn chỉnh, đúng chuẩn nghiệp vụ, dùng làm
+> portfolio khi ứng tuyển vị trí **thực tập sinh Business Analyst**.
 
-Chị Thành hiện đang quản lý cửa hàng tạp hóa của mình bằng sổ sách và Excel. Việc này gây ra:
+---
 
-* Khó kiểm soát chính xác tồn kho theo thời gian thực
-* Không có cảnh báo khi hàng sắp hết hoặc sắp hết hạn sử dụng
-* Mất nhiều thời gian tính doanh thu cuối ngày
-* Không biết mặt hàng nào bán chạy để lên kế hoạch nhập hàng
+## 🧩 Bài toán kinh doanh
 
-→ Chị Thành mong muốn có một hệ thống phần mềm quản lý bán hàng (POS + quản lý kho) để
-số hóa toàn bộ quy trình vận hành cửa hàng.
+Chị Thành hiện quản lý cửa hàng hoàn toàn thủ công, dẫn đến nhiều điểm nghẽn:
 
-## 📂 Cấu trúc tài liệu
+| Vấn đề | Hệ quả |
+|---|---|
+| Kiểm đếm tồn kho bằng tay | Sai số, mất thời gian, khó kiểm soát theo thời gian thực |
+| Không có cảnh báo hết hàng / hết hạn | Gián đoạn kinh doanh, thất thoát hàng hóa |
+| Tính doanh thu thủ công cuối ngày | Mất thời gian, dễ sai lệch |
+| Không có dữ liệu khách hàng thân thiết | Khó giữ chân khách, không tối ưu được doanh thu |
 
-|Tài liệu|Nội dung|
-|-|-|
-|[01 – Tổng quan dự án](01-project-overview.md)|Bối cảnh, mục tiêu, phạm vi, stakeholder|
-|[02 – BRD (Business Requirement Document)](02-brd.md)|Yêu cầu nghiệp vụ, tiêu chí thành công|
-|[03 – FRD (Functional Requirement Document)](03-frd.md)|Yêu cầu chức năng \& phi chức năng chi tiết|
-|[04 – Use Case Specifications](04-use-cases.md)|Danh sách actor, use case diagram, đặc tả chi tiết|
-|[05 – Business Process Flow](05-process-flow.md)|Lưu đồ quy trình Bán hàng \& Nhập hàng (Mermaid/BPMN-style)|
-|[06 – ERD (Entity Relationship Diagram)](06-erd.md)|Mô hình dữ liệu sơ bộ|
-|[07 – Wireframes](07-wireframes.md)|Mô tả giao diện các màn hình chính|
+→ Từ đó, dự án đặt mục tiêu xây dựng một hệ thống giúp **số hóa toàn bộ quy trình bán hàng,
+nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo hỗ trợ ra quyết định.
 
-## 🧰 Công cụ sử dụng (gợi ý khi mở rộng)
+---
 
-* **Draw.io / Lucidchart** – vẽ lại Use Case Diagram, BPMN dạng hình ảnh trực quan
-* **Figma** – dựng wireframe/mockup thực tế từ mô tả trong `07-wireframes.md`
-* **Mermaid** (đã dùng trong repo này) – biểu đồ dạng code, render trực tiếp trên GitHub
+## 📚 Tài liệu dự án
 
-## 🏷️ Phạm vi (Scope)
+| # | Tài liệu | Nội dung chính |
+|---|---|---|
+| 01 | [Tổng quan dự án](docs/01-project-overview.md) | Bối cảnh, mục tiêu, phạm vi, stakeholder |
+| 02 | [BRD — Business Requirement Document](docs/02-brd.md) | Yêu cầu nghiệp vụ & tiêu chí thành công |
+| 03 | [FRD — Functional Requirement Document](docs/03-frd.md) | Yêu cầu chức năng & phi chức năng chi tiết |
+| 04 | [Use Case Specifications](docs/04-use-cases.md) | Actor, sơ đồ Use Case, đặc tả chi tiết từng use case |
+| 05 | [Business Process Flow](docs/05-process-flow.md) | Lưu đồ quy trình Bán hàng / Nhập hàng / Cảnh báo (Mermaid) |
+| 06 | [ERD — Entity Relationship Diagram](docs/06-erd.md) | Mô hình dữ liệu sơ bộ |
+| 07 | [Wireframes & Mockup](docs/07-wireframes.md) | Giao diện các màn hình chính (Figma) |
 
-**Trong phạm vi:** Bán hàng tại quầy (POS), quản lý sản phẩm \& tồn kho, quản lý nhập hàng,
-quản lý khách hàng thân thiết (tích điểm), báo cáo \& thống kê, phân quyền người dùng.
+> 💡 Các sơ đồ trong tài liệu được viết bằng **Mermaid** — GitHub tự render trực tiếp thành hình,
+> không cần công cụ ngoài.
 
-**Ngoài phạm vi (giai đoạn 1):** Bán hàng đa kênh online, tích hợp cổng thanh toán bên thứ ba,
-quản lý chuỗi cung ứng nhiều chi nhánh.
+---
 
-## 👤 Stakeholders chính
+## 🖼️ Xem trước giao diện
 
-* **Chị Thành (Owner/Admin)** — chủ cửa hàng, ra quyết định kinh doanh
-* **Cashier** — nhân viên bán hàng
-* **Inventory Staff** — nhân viên kho
-* **Customer** — khách hàng của cửa hàng
-* **Supplier** — nhà cung cấp hàng hóa
+<div align="center">
+<img src="assets/pos-ban-hang.png" width="420"/>&nbsp;&nbsp;
+<img src="assets/dashboard-tong-quan.png" width="420"/>
+<br/><i>Màn hình Bán hàng (POS) và Dashboard báo cáo — xem đầy đủ tại <a href="docs/07-wireframes.md">07-wireframes.md</a></i>
+</div>
 
-\---
+---
 
-*Đây là dự án học tập/portfolio cá nhân, không phải sản phẩm thương mại thực tế.*
+## 🎯 Phạm vi dự án
 
+**✅ Trong phạm vi**
+- Bán hàng tại quầy (POS): tạo đơn, khuyến mãi, thanh toán, in hóa đơn
+- Quản lý sản phẩm & tồn kho, cảnh báo hết hàng / hết hạn
+- Quản lý nhập hàng & nhà cung cấp
+- Quản lý khách hàng thân thiết (tích điểm)
+- Báo cáo doanh thu, tồn kho, sản phẩm bán chạy
+- Phân quyền theo vai trò người dùng
+
+**⛔ Ngoài phạm vi (giai đoạn 1)**
+- Bán hàng đa kênh / website thương mại điện tử
+- Tích hợp cổng thanh toán bên thứ ba
+- Quản lý chuỗi cung ứng nhiều chi nhánh
+
+---
+
+## 👥 Stakeholders
+
+| Vai trò | Mô tả |
+|---|---|
+| **Chị Thành** (Owner/Admin) | Chủ cửa hàng, ra quyết định kinh doanh |
+| **Cashier** | Nhân viên bán hàng tại quầy |
+| **Inventory Staff** | Nhân viên quản lý kho, nhập hàng |
+| **Customer** | Khách hàng mua sắm, thành viên tích điểm |
+| **Supplier** | Nhà cung cấp hàng hóa |
+
+---
+
+## 🧰 Công cụ sử dụng
+
+`Figma` — thiết kế wireframe & mockup &nbsp;•&nbsp; `Mermaid` — sơ đồ Use Case / BPMN / ERD &nbsp;•&nbsp; `Markdown` — trình bày tài liệu
+
+---
+
+## ✍️ Về tác giả
+
+**Võ Huỳnh Thủy Tiên**
+Business Analyst — đang tìm kiếm cơ hội thực tập
+📫 vohuynhthuytien1769@gmail.com
+
+---
+
+<div align="center">
+<i>Đây là dự án học tập / portfolio cá nhân, không phải sản phẩm thương mại thực tế.</i>
+</div>
