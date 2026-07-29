@@ -9,7 +9,7 @@ Mục tiêu thiết kế là tạo ra giao diện đơn giản, trực quan, d�
 
 ## 7.1. Màn hình Bán hàng – POS Screen
 
-![Màn hình bán hàng POS](../assets/pos-ban-hang.png)
+![Màn hình bán hàng POS](assets/pos-ban-hang.png)
 
 ### Mục đích
 
@@ -32,7 +32,7 @@ Màn hình POS hỗ trợ nhân viên bán hàng tìm kiếm sản phẩm, thêm
 
 ## 7.2. Màn hình Quản lý Sản phẩm & Tồn kho
 
-![Màn hình quản lý sản phẩm và tồn kho](../assets/san-pham-ton-kho.png)
+![Màn hình quản lý sản phẩm và tồn kho](assets/san-pham-ton-kho.png)
 
 ### Mục đích
 
@@ -61,7 +61,7 @@ Màn hình hỗ trợ chủ cửa hàng và nhân viên kho quản lý danh sác
 
 ## 7.3. Modal Thêm sản phẩm
 
-![Modal thêm sản phẩm](../assets/modal-them-san-pham.png)
+![Modal thêm sản phẩm](assets/modal-them-san-pham.png)
 
 Modal được hiển thị khi người dùng chọn chức năng **Thêm sản phẩm** tại màn hình quản lý sản phẩm và tồn kho.
 
@@ -90,7 +90,7 @@ Modal được hiển thị khi người dùng chọn chức năng **Thêm sản
 
 ## 7.4. Màn hình Nhập hàng
 
-![Màn hình nhập hàng](../assets/nhap-hang.png)
+![Màn hình nhập hàng](assets/nhap-hang.png)
 
 ### Mục đích
 
@@ -121,7 +121,7 @@ Màn hình nhập hàng hỗ trợ chủ cửa hàng hoặc nhân viên kho tạ
 
 ## 7.5. Modal Xác nhận nhập hàng
 
-![Modal xác nhận nhập hàng](../assets/modal-xac-nhan-nhap.png)
+![Modal xác nhận nhập hàng](assets/modal-xac-nhan-nhap.png)
 
 Modal được hiển thị khi người dùng chọn **Xác nhận nhập hàng**.
 
@@ -137,7 +137,7 @@ Sau khi xác nhận thành công, phiếu nhập không được chỉnh sửa t
 
 ## 7.6. Dashboard Tổng quan
 
-![Dashboard tổng quan](../assets/dashboard-tong-quan.png)
+![Dashboard tổng quan](assets/dashboard-tong-quan.png)
 
 ### Mục đích
 
@@ -193,4 +193,4 @@ Dashboard hỗ trợ chủ cửa hàng theo dõi nhanh tình hình kinh doanh v�
 
 ---
 
-⬅️ [Trước: ERD](06-erd.md) | 🏠 [Về README](../README.md)
+⬅️ [Trước: ERD](06-erd.md) | 🏠 [Về README](README.md)
