@@ -21,9 +21,6 @@ Dự án lấy bối cảnh giả định: xây dựng hệ thống quản lý b
 **Cửa hàng Tạp hóa Chị Thành** — một cửa hàng quy mô nhỏ đang vận hành thủ công bằng sổ sách,
 Excel và mong muốn số hóa để quản lý hiệu quả hơn.
 
-> 🎯 Mục tiêu của dự án: xây dựng một bộ hồ sơ BA hoàn chỉnh, đúng chuẩn nghiệp vụ, dùng làm
-> portfolio khi ứng tuyển vị trí **thực tập sinh Business Analyst**.
-
 
 ## 🧩 Bài toán kinh doanh
 
