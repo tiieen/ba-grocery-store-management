@@ -13,14 +13,9 @@
 
 ## 👋 Giới thiệu
 
-Đây là bộ tài liệu phân tích nghiệp vụ (Business Analysis) được thực hiện như một **dự án cá nhân**,
-mô phỏng đầy đủ quy trình của một Business Analyst thực thụ — từ tìm hiểu bối cảnh kinh doanh,
-thu thập yêu cầu, đến đặc tả chức năng, use case, quy trình nghiệp vụ và mô hình dữ liệu.
+Đây là bộ tài liệu phân tích nghiệp vụ được xây dựng dưới dạng một **dự án cá nhân**, mô phỏng quy trình làm việc của Business Analyst trong một dự án phần mềm — từ phân tích bối cảnh kinh doanh, xác định vấn đề, phân tích yêu cầu đến đặc tả chức năng, xây dựng use case, mô hình hóa quy trình và thiết kế dữ liệu.
 
-Dự án lấy bối cảnh giả định: xây dựng hệ thống quản lý bán hàng (POS + quản lý kho) cho
-**Cửa hàng Tạp hóa Chị Thành** — một cửa hàng quy mô nhỏ đang vận hành thủ công bằng sổ sách,
-Excel và mong muốn số hóa để quản lý hiệu quả hơn.
-
+Dự án lấy bối cảnh giả định là xây dựng hệ thống quản lý bán hàng tích hợp POS và quản lý kho cho **Tạp hóa chị Thành** — một cửa hàng quy mô nhỏ đang vận hành chủ yếu bằng sổ sách và Excel, đồng thời có nhu cầu số hóa các quy trình cốt lõi để quản lý hiệu quả hơn.
 
 ## 🧩 Bài toán kinh doanh
 
@@ -33,9 +28,7 @@ Chị Thành hiện quản lý cửa hàng hoàn toàn thủ công, dẫn đến
 | Tính doanh thu thủ công cuối ngày | Mất thời gian, dễ sai lệch |
 | Không có dữ liệu khách hàng thân thiết | Khó giữ chân khách, không tối ưu được doanh thu |
 
-→ Từ đó, dự án đặt mục tiêu xây dựng một hệ thống giúp **số hóa toàn bộ quy trình bán hàng,
-nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo hỗ trợ ra quyết định.
-
+→ Từ đó, dự án đề xuất một hệ thống giúp **số hóa các quy trình cốt lõi gồm bán hàng, nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo hỗ trợ chủ cửa hàng ra quyết định dựa trên dữ liệu.
 ## 📚 Tài liệu dự án
 
 | # | Tài liệu | Nội dung chính |
@@ -52,9 +45,10 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 ## 🖼️ Xem trước giao diện
 
 <div align="center">
-<img src="assets/pos-ban-hang.png" width="420"/>&nbsp;&nbsp;
-<img src="assets/dashboard-tong-quan.png" width="420"/>
-<br/><i>Màn hình Bán hàng (POS) và Dashboard báo cáo — xem đầy đủ tại <a href="docs/07-wireframes.md">07-wireframes.md</a></i>
+<img src="assets/pos-ban-hang.png" alt="Màn hình bán hàng POS" width="48%"/>
+<img src="assets/dashboard-tong-quan.png" alt="Dashboard tổng quan" width="48%"/>
+<br/>
+<i>Màn hình Bán hàng POS và Dashboard báo cáo — xem đầy đủ tại <a href="docs/07-wireframes.md">07-wireframes.md</a></i>
 </div>
 
 
@@ -83,13 +77,26 @@ nhập hàng và quản lý tồn kho**, đồng thời cung cấp báo cáo h�
 | **Customer** | Khách hàng mua sắm, thành viên tích điểm |
 | **Supplier** | Nhà cung cấp hàng hóa |
 
+## 🧠 Năng lực thể hiện qua dự án
 
+- Phân tích vấn đề và mục tiêu kinh doanh
+- Xác định stakeholder và phạm vi dự án
+- Xây dựng BRD và FRD
+- Viết Use Case Specification
+- Mô hình hóa quy trình nghiệp vụ
+- Xây dựng Business Rules
+- Thiết kế mô hình dữ liệu ERD
+- Thiết kế wireframe và UI mockup
+- Trình bày tài liệu dự án trên GitHub
+- 
 ## ✍️ Về tác giả
 
-**Võ Huỳnh Thủy Tiên**
-Business Analyst — đang tìm kiếm cơ hội thực tập
-📫 vohuynhthuytien1769@gmail.com
+**Võ Huỳnh Thủy Tiên**  
+Sinh viên ngành Khoa học dữ liệu  
+Định hướng: Business Analysis và Data Analysis  
+Đang tìm kiếm cơ hội thực tập Business Analyst  
 
+📫 **Email:** vohuynhthuytien1769@gmail.com
 
 <div align="center">
 <i>Đây là dự án học tập / portfolio cá nhân, không phải sản phẩm thương mại thực tế.</i>
